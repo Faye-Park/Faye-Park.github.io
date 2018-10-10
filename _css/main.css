@@ -1,0 +1,110 @@
+/* Colors:
+  #5603AD - Purple
+  #8367C7 - Lavender
+  #B3E9C7 - Seafoam Green
+  #C2F8CB - Light Green
+  #F0FFF1 - Off-white */
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Source+Sans+Pro');
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Global styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+/* Header styles */
+.content-wrapper-header {
+  max-width: 950px;
+  text-align: center;
+  padding: 200px 0px 100px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #5603AD;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 6em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Banner styles */
+.bio {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Tile styles */
+.col-wide {
+  width: 60%;
+  background-color: #8367C7;
+  border: solid 2px black;
+  float: left;
+  padding: 150px;
+}
+
+.col-narrow {
+  width: 40%;
+  background-color: #C2F8CB;
+  border: solid 2px black;
+  float: left;
+  padding: 150px;
+}
+
+.tiles {
+  overflow: auto;
+}
+
+.tiles h3 {
+  font-size: 3em;
+}
+
+/* Contact styles */
+.content-wrapper-footer {
+  max-width: 950px;
+  text-align: center;
+  padding: 100px 0px 100px;
+  margin: 0 auto;
+}
+
+.content-wrapper-footer a {
+  background-color: #8367C7;
+  padding: 10px;
+  display: inline-block;
+}
+
+footer {
+  background: #5603AD;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
